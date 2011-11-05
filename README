@@ -1,0 +1,4 @@
+scrape.py collects all the data and stores it as a series of JSON files under the results/ folder.
+merge.py collapses all the files in the results/ folder together into one file that contains all the inspection data.
+
+Requires simplejson and BeautifulSoup.
